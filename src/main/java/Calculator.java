@@ -18,6 +18,6 @@ public class Calculator {
         int a = add(2,10);
         int b = dif(10,2);
         int c = div(30,2);
-        return (add(b,div(times(a,c),2)));
+        return (add(b,div(times(a,c),2))); // 1) Умножение a на c 2) Деление результата на 2 3) Сложение результата с b
     }
 }
